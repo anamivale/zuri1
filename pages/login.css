@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+a:hover{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+input{
+    margin-bottom: 10px;
+}

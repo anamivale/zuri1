@@ -1,0 +1,56 @@
+.blue{
+    background-color: blue;
+    color: blue;
+    width: 67vw;
+    height: 300px;
+    margin-left: 1vw;
+
+}
+.orange{
+    background-color: orange;
+    height: 300px;
+    width: 29vw;
+    margin-left: 1vw;
+    column-span: all;
+    
+}
+body{
+    box-sizing: border-box;
+    border: o;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+.one{
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 10px;
+}
+.two{
+    box-sizing: border-box;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+}
+.three{
+    width: 44vw;
+    height: 100%;
+    margin-left: 1vw;
+    background-color: blueviolet;
+
+}
+.four{
+    width:53vw ;
+    height: 100%;
+    margin-left: 1vw;
+}
+.five{
+    height: 145px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.six{
+    height: 145px;
+    background-color: black;
+}

@@ -1,0 +1,155 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+@media only screen and (max-device-width : 1440px){
+    body{
+        box-sizing: border-box;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        overflow: hidden;
+        font-family:"Poppins";
+    }
+    
+    input{
+        margin: 10px 0 10px 0;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        border-radius: 3px;
+        outline:hsl(246, 25%, 77%);
+        border: hsl(246, 25%, 77%) solid;
+    }
+    span{
+        color: red;
+    }
+    .form{
+        align-items: flex-start;
+        text-align: start;
+        padding: 20px;
+        background-color: white;
+        margin: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        
+    
+    }
+    
+    .d1{
+        width: 50%;
+        right: 0;
+    }
+    .d2{
+        background-color:hsl(248, 32%, 49%);
+        border-radius: 5px;
+        padding: 10px 5px 10px 5px;
+    }
+    button{
+        color: white;
+        background-color:hsl(154, 59%, 51%) ;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 10px 0 10px 0;
+        width: 90%;
+    
+    }
+    .d0{
+        padding: 50px;
+        font-weight: 400;
+        color: white;
+    } 
+    
+    
+    .d0>h1{
+        font-weight: 700;
+    
+    }
+    body{
+        background-image: url(./images/bg-intro-desktop.png);
+        height: 100vh;
+        width: 100vw;
+    }
+    .main{
+        display: flex;
+        background-color: hsl(0, 100%, 74%);
+        padding: 100px;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body{
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        overflow: hidden;
+        font-family:"Poppins";
+    }
+    
+    input{
+        margin: 10px 0 10px 0;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        border-radius: 3px;
+        outline:hsl(246, 25%, 77%);
+        border: hsl(246, 25%, 77%) solid;
+    }
+    span{
+        color: red;
+    }
+    .form{
+        align-items: flex-start;
+        text-align: start;
+        padding: 20px;
+        background-color: white;
+        margin: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        
+    
+    }
+    
+    .d1{
+        /* width: 50%; */
+        right: 0;
+    }
+    .d2{
+        background-color:hsl(248, 32%, 49%);
+        border-radius: 5px;
+        padding: 10px 5px 10px 5px;
+    }
+    button{
+        color: white;
+        background-color:hsl(154, 59%, 51%) ;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 10px 0 10px 0;
+        /* width: 90%; */
+    
+    }
+    .d0{
+        /* padding: 50px; */
+        font-weight: 400;
+        color: white;
+    } 
+    
+    
+    .d0>h1{
+        font-weight: 700;
+    
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    .main{
+        background-color: hsl(0, 100%, 74%);
+        padding: 100px;
+    }
+}

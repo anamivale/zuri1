@@ -1,0 +1,200 @@
+@media only screen and (max-device-width : 1440px){
+    *{
+        box-sizing: border-box;
+        
+    }
+    body{
+        font-size: 18px;
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+        max-width: 100vw;
+        background-image: url("./images/bg-hero-desktop.svg");
+    
+    }
+    .d000{
+        background-color: hsl(193, 100%, 96%);
+    
+    }
+    .d1{
+        display: flex;
+    }
+    footer{
+        background-color: hsl(192, 100%, 9%);
+        color: white;
+        padding: 100px;
+    }
+    .bd0{
+        padding: 5px 40px;
+        border-radius: 15px;
+        /* background-color: white; */
+        border: none;
+        
+    
+    }
+    .bd01{
+        background-color: rgb(241, 11, 118);
+        padding: 10px 40px;
+        border-radius: 20px;
+        align-items: center;
+        border: none;
+    }
+    .d1{
+        display: flex;
+        background-color: white;
+        margin: 30px;
+        border: 0.1em solid lightgrey;
+        box-shadow: inset;
+        border-radius: 10px;
+        
+    }
+    .d11{
+        padding-right: 100px;
+        margin-right: 80px;
+    }
+    .d0{
+        display: flex;
+        padding: 40px;
+    }
+    .d2{
+        display: flex;
+        background-color: white;
+        margin: 30px;
+        border: 0.1em solid lightgrey;
+        box-shadow: inset;
+        border-radius: 10px;
+    }
+    .d3{
+        display: flex;
+        background-color: white;
+        margin: 30px;
+        border: 0.1em solid lightgrey;
+        box-shadow: inset;
+        border-radius: 10px;  
+    }
+    .img{
+        height: 30vh;
+        /* width: 50vw; */
+        /* padding: 100px; */
+        padding: 10px 40px;
+        border-radius: 20px;
+    }
+    .img1{
+        height:40vh;
+        width:50vw;
+       padding: 0 110px;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .d4{
+        /* box-sizing: border-box;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 20px; */
+        position: absolute;
+        bottom: -0;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 375px)
+    {
+    *{
+        box-sizing: border-box;
+        
+    }
+    body{
+        font-size: 18px;
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+        max-width: 100vw;
+        background-image: url("./images/bg-hero-mobile.svg");
+    
+    }
+    .d000{
+        background-color: hsl(193, 100%, 96%);
+    
+    }
+    
+    footer{
+        background-color: hsl(192, 100%, 9%);
+        color: white;
+        padding: 100px;
+    }
+    .bd0{
+        padding: 5px 40px;
+        border-radius: 15px;
+        /* background-color: white; */
+        border: none;
+        
+    
+    }
+    .bd01{
+        background-color: rgb(241, 11, 118);
+        padding: 10px 40px;
+        border-radius: 20px;
+        align-items: center;
+        border: none;
+    }
+    .d1{
+        background-color: white;
+        margin: 30px;
+        border: 0.1em solid lightgrey;
+        box-shadow: inset;
+        border-radius: 10px;
+        
+    }
+    .d11{
+        padding-right: 100px;
+        margin-right: 80px;
+    }
+    .d0{
+        padding: 40px;
+    }
+    .d2{
+        background-color: white;
+        margin: 30px;
+        border: 0.1em solid lightgrey;
+        box-shadow: inset;
+        border-radius: 10px;
+    }
+    .d3{
+        background-color: white;
+        margin: 30px;
+        border: 0.1em solid lightgrey;
+        box-shadow: inset;
+        border-radius: 10px;  
+    }
+    .img{
+        height: 30vh;
+        /* width: 50vw; */
+        /* padding: 100px; */
+        padding: 10px 40px;
+        border-radius: 20px;
+    }
+    .img1{
+        height:40vh;
+        width:50vw;
+       padding: 0 110px;
+    }
+    .logo{
+        justify-content: space-between;
+    }
+    .d4{
+        /* box-sizing: border-box;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 20px; */
+        position: absolute;
+        bottom: -0;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    
+    }
+}

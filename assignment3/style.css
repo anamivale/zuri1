@@ -1,4 +1,4 @@
-@media only screen and (max-device-width : 1440px){
+@media only screen and (max-width : 1440px){
     *{
         box-sizing: border-box;
         
@@ -101,8 +101,7 @@
     }
 }
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 375px)
+  and (max-width: 375px)
     {
     *{
         box-sizing: border-box;
